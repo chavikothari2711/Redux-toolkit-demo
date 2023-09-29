@@ -14,6 +14,9 @@ A demo project with the help of youtube channel.
    ```
    node index
    ```
+   
+### Redux
+[Check out the reference](https://github.com/chavikothari2711/Redux-Demo)
 
 ### File Structure in reduxjs -toolkit demo generally used
 - index.js : Subscribe | Unsubscribe and action dispath takes place
@@ -34,9 +37,6 @@ Package used:
 - axios: used to request an API end point
 - redux-thunk: define asnc action creator middleware(default)
 Fake RESTapi end point: https://jsonplaceholder.typicode.com/
-
-## Redux
-[Check out the reference](https://github.com/chavikothari2711/Redux-Demo)
 
 ### Extra reducers(Create Slice)
 Note: In case of redux each reducer can update its state only but can respond to any action type. whereas in case of redux-toolkit it is not possible. To overcome that and in case of complex reducer or async actions situtation extra reducers are used. 
