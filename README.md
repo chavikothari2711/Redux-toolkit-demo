@@ -35,6 +35,9 @@ Package used:
 - redux-thunk: define asnc action creator middleware(default)
 Fake RESTapi end point: https://jsonplaceholder.typicode.com/
 
+## Redux
+[Check out the reference](https://github.com/chavikothari2711/Redux-Demo)
+
 ### Extra reducers(Create Slice)
 Note: In case of redux each reducer can update its state only but can respond to any action type. whereas in case of redux-toolkit it is not possible. To overcome that and in case of complex reducer or async actions situtation extra reducers are used. 
 
